@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E4A7E91A2207BE00826329 /* ftlcdfil.c in Sources */ = {isa = PBXBuildFile; fileRef = 37E4A7E81A2207BE00826329 /* ftlcdfil.c */; };
 		6382B98A0FB12EFC00ECAC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		63C2D982134D74FF008ACEBC /* psnames.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A930134D63990044A25D /* psnames.c */; };
 		63E2A9BB134D639A0044A25D /* ftconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E2A7B1134D63990044A25D /* ftconfig.h */; };
@@ -243,6 +244,7 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E4A7E81A2207BE00826329 /* ftlcdfil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftlcdfil.c; sourceTree = "<group>"; };
 		6382B1B10FB0FC5100ECAC02 /* libFreetype2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFreetype2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E2A7B1134D63990044A25D /* ftconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftconfig.h; sourceTree = "<group>"; };
 		63E2A7B2134D63990044A25D /* ftheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftheader.h; sourceTree = "<group>"; };
@@ -691,6 +693,7 @@
 		63E2A827134D63990044A25D /* base */ = {
 			isa = PBXGroup;
 			children = (
+				37E4A7E81A2207BE00826329 /* ftlcdfil.c */,
 				63E2A828134D63990044A25D /* basepic.c */,
 				63E2A829134D63990044A25D /* basepic.h */,
 				63E2A82A134D63990044A25D /* ftadvanc.c */,
@@ -1140,6 +1143,7 @@
 				63E2AA2E134D639B0044A25D /* ftapi.c in Sources */,
 				63E2AA2F134D639B0044A25D /* ftbase.c in Sources */,
 				63E2AA31134D639B0044A25D /* ftbbox.c in Sources */,
+				37E4A7E91A2207BE00826329 /* ftlcdfil.c in Sources */,
 				63E2AA33134D639B0044A25D /* ftbitmap.c in Sources */,
 				63E2AA36134D639C0044A25D /* ftdbgmem.c in Sources */,
 				63E2AA37134D639C0044A25D /* ftdebug.c in Sources */,
